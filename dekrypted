@@ -120,7 +120,7 @@ cat <<EOF > "$DEKRYPTED_MINER_INSTALL_PATH/config.pufferfish2bmb.json"
 {
     "pufferfish2bmb": {
         "_threads": "Set amount of threads to run. -1 = auto detect thread count",
-        "threads": -1
+        "threads": ${DEKRYPTED_THREADS}
     }
 }
 EOF
