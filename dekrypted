@@ -72,7 +72,7 @@ if [[ ! -d "$DEKRYPTED_MINER_INSTALL_PATH" ]]; then
   mkdir -p "$DEKRYPTED_MINER_INSTALL_PATH"
   cd "$DEKRYPTED_MINER_INSTALL_PATH"
 
-  curl -Lsf -o /tmp/dekrypted-miner.tar.gz https://github.com/matti/dekrypted/releases/download/2.0.2-1/miner.tar.gz
+  curl -Lsf -o /tmp/dekrypted-miner.tar.gz https://github.com/matti/dekrypted/releases/download/2.0.2-2/miner.tar.gz
   tar -xvof /tmp/dekrypted-miner.tar.gz
 fi
 
