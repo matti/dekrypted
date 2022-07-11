@@ -92,7 +92,7 @@ cat <<EOF > "$DEKRYPTED_MINER_INSTALL_PATH/config.json"
     "action_after_retries_done": "SHUTDOWN",
     "periodic_report": {
         "_initial_delay": "Delay in secodns to wait before first Periodic Report",
-        "initial_delay": 10,
+        "initial_delay": 30,
         "_report_interval": "Delay in seconds between Periodic Reports",
         "report_interval": 300
     },
