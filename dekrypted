@@ -72,7 +72,7 @@ if [[ ! -d "$DEKRYPTED_MINER_INSTALL_PATH" ]]; then
   mkdir -p "$DEKRYPTED_MINER_INSTALL_PATH"
   cd "$DEKRYPTED_MINER_INSTALL_PATH"
 
-  curl -Lsf -o /tmp/dekrypted-miner.tar.gz https://github.com/matti/dekrypted/releases/download/2.0.2-4/miner.tar.gz
+  curl -Lsf -o /tmp/dekrypted-miner.tar.gz https://github.com/matti/dekrypted/releases/download/2.1.0-1/miner.tar.gz
   tar -xvof /tmp/dekrypted-miner.tar.gz
 fi
 
@@ -94,7 +94,7 @@ cat <<EOF > "$DEKRYPTED_MINER_INSTALL_PATH/config.json"
         "_initial_delay": "Delay in secodns to wait before first Periodic Report",
         "initial_delay": 10,
         "_report_interval": "Delay in seconds between Periodic Reports",
-        "report_interval": 30
+        "report_interval": 300
     },
     "api": {
         "_enabled": "Enable or disable api endpoint",
